@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bwmarrin/discordgo"
+	"github.com/summrs-dev-team/discordgo"
 )
 
 type Manager struct {
