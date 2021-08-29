@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bwmarrin/discordgo"
+	"github.com/summrs-dev-team/discordgo"
 )
 
 const (
 	// How long to pause between connecting shards.
 	TIMELIMIT = time.Second * 5
 	// Shards library version. Follows semantic versioning (semver.org).
-	VERSION = "1.1.0"
+	VERSION = "1.1.1"
 )
 
 // A Shard represents a shard.
